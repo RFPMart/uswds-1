@@ -90,7 +90,7 @@
   <div class="grid-container">
     <div class="maxw-tablet">
       <h1 class="font-heading-2xl margin-bottom-1">
-        Contact the City of RFPMart
+        Contact Us
       </h1>
       <p class="usa-intro">
         We’re here to help. Please use the form below to get in touch
