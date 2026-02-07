@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us | City of RFPMart</title>
+  <meta name="description" content="Contact the City of RFPMart for questions, feedback, or service requests." />
+
+  <!-- USWDS CSS -->
+  <link rel="stylesheet" href="uswds/dist/css/uswds.min.css" />
+
+  <style>
+    .contact-hero {
+      background-image:
+        linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+        url("images/webp/bg-contact-us.webp");
+      background-size: cover;
+      background-position: center;
+    }
+
+    .contact-info-card {
+      min-height: 200px;
+      display: flex;
+      align-items: center;
+      border-radius: 0.5rem;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .contact-info-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+      border-color: #005ea2;
+    }
+
+    .map-embed {
+      width: 100%;
+      height: 560px;
+      border: none;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- ================= NAVIGATION (STATIC) ================= -->
+<header class="usa-header usa-header--basic">
+  <div class="usa-nav-container">
+    <div class="usa-navbar">
+      <div class="usa-logo">
+        <em class="usa-logo__text">
+          <a href="index.html">City of RFPMart</a>
+        </em>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main id="main-content">
+
+<!-- ================= HERO ================= -->
+<section class="usa-section text-white contact-hero">
+  <div class="grid-container">
+    <h1 class="font-heading-2xl">Contact Us</h1>
+    <p class="usa-intro">
+      We’re here to help. Please use the form below to get in touch.
+    </p>
+  </div>
+</section>
+
+<!-- ================= INFO CARDS ================= -->
+<section class="usa-section">
+  <div class="grid-container grid-row grid-gap-lg">
+
+    <div class="tablet:grid-col-4">
+      <div class="usa-card contact-info-card">
+        <div class="usa-card__container text-center">
+          <h3>Address</h3>
+          <p>123 Civic Center Plaza<br>RFPMart, USA</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="tablet:grid-col-4">
+      <div class="usa-card contact-info-card">
+        <div class="usa-card__container text-center">
+          <h3>Email</h3>
+          <p><a href="mailto:info@rfpmart.gov">info@rfpmart.gov</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="tablet:grid-col-4">
+      <div class="usa-card contact-info-card">
+        <div class="usa-card__container text-center">
+          <h3>Office Hours</h3>
+          <p>Mon–Fri<br>9:00 AM – 5:00 PM</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= MAP + FORM ================= -->
+<section class="usa-section">
+  <div class="grid-container grid-row grid-gap-lg">
+
+    <div class="tablet:grid-col-6">
+      <iframe
+        class="map-embed"
+        src="https://www.google.com/maps?q=New+York+City+Hall&output=embed"
+        loading="lazy">
+      </iframe>
+    </div>
+
+    <div class="tablet:grid-col-6">
+      <form class="usa-form usa-form--large">
+        <label class="usa-label">Full name</label>
+        <input class="usa-input" type="text" required>
+
+        <label class="usa-label">Email</label>
+        <input class="usa-input" type="email" required>
+
+        <label class="usa-label">Message</label>
+        <textarea class="usa-textarea" rows="5" required></textarea>
+
+        <button class="usa-button margin-top-3">Submit</button>
+      </form>
+    </div>
+
+  </div>
+</section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="usa-footer">
+  <div class="grid-container">
+    <p>© City of RFPMart</p>
+  </div>
+</footer>
+
+<script src="uswds/dist/js/uswds.min.js"></script>
+</body>
+</html>

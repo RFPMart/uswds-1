@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pricing | City of RFPMart</title>
+
+  <!-- USWDS CSS -->
+  <link rel="stylesheet" href="uswds/dist/css/uswds.min.css" />
+
+  <style>
+    .pricing-hero {
+      background: linear-gradient(135deg, rgba(0, 94, 162, 0.85), rgba(0, 73, 144, 0.9)),
+        url("images/webp/bg-pricing.webp");
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      padding: 4rem 0;
+    }
+
+    .pricing-card {
+      border-radius: 0.5rem;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .pricing-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    .pricing-card--featured::before {
+      content: "Most Popular";
+      position: absolute;
+      top: 0;
+      right: 0;
+      background: #005ea2;
+      color: #fff;
+      padding: 0.5rem 1.25rem;
+      font-size: 0.875rem;
+      font-weight: 700;
+    }
+
+    .pricing-price {
+      font-size: 3rem;
+      font-weight: 700;
+      color: #005ea2;
+    }
+
+    .pricing-features li::before {
+      content: "✓";
+      color: #00a91c;
+      margin-right: 0.75rem;
+      font-weight: bold;
+    }
+
+    .faq-item {
+      border: 1px solid #dfe1e2;
+      border-radius: 0.5rem;
+      padding: 1rem 1.25rem;
+      background: #fff;
+    }
+
+    .faq-question {
+      cursor: pointer;
+      position: relative;
+      padding-right: 1.5rem;
+    }
+
+    .faq-question::after {
+      content: "+";
+      position: absolute;
+      right: 0;
+    }
+
+    details[open] .faq-question::after {
+      content: "−";
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- ===== HEADER ===== -->
+<header class="usa-header usa-header--basic">
+  <div class="usa-nav-container">
+    <div class="usa-logo">
+      <a href="index.html">City of RFPMart</a>
+    </div>
+  </div>
+</header>
+
+<main id="main-content">
+
+<!-- ===== HERO ===== -->
+<section class="usa-section pricing-hero">
+  <div class="grid-container text-center">
+    <h1 class="font-heading-2xl">Pricing</h1>
+    <p class="usa-intro">
+      Simple, fair pricing for communities and organizations.
+    </p>
+  </div>
+</section>
+
+<!-- ===== PRICING ===== -->
+<section class="usa-section">
+  <div class="grid-container">
+    <div class="grid-row grid-gap-4">
+
+      <!-- BASIC -->
+      <div class="tablet:grid-col-4">
+        <div class="usa-card pricing-card">
+          <div class="usa-card__container">
+            <h2 class="usa-card__heading">Basic</h2>
+            <div class="pricing-price">$0</div>
+            <ul class="usa-list usa-list--unstyled pricing-features">
+              <li>Public services access</li>
+              <li>Community events</li>
+              <li>Document library</li>
+            </ul>
+            <a class="usa-button usa-button--outline width-full" href="#">Get Started</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- STANDARD -->
+      <div class="tablet:grid-col-4">
+        <div class="usa-card pricing-card pricing-card--featured position-relative">
+          <div class="usa-card__container">
+            <h2 class="usa-card__heading">Standard</h2>
+            <div class="pricing-price">$49</div>
+            <ul class="usa-list usa-list--unstyled pricing-features">
+              <li>Department dashboards</li>
+              <li>Email support</li>
+              <li>Analytics</li>
+            </ul>
+            <a class="usa-button usa-button--secondary width-full" href="#">
+              Start Free Trial
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ENTERPRISE -->
+      <div class="tablet:grid-col-4">
+        <div class="usa-card pricing-card">
+          <div class="usa-card__container">
+            <h2 class="usa-card__heading">Enterprise</h2>
+            <div class="pricing-price">Custom</div>
+            <ul class="usa-list usa-list--unstyled pricing-features">
+              <li>Dedicated manager</li>
+              <li>Priority support</li>
+              <li>Unlimited users</li>
+            </ul>
+            <a class="usa-button width-full" href="contact.html">
+              Contact Sales
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section class="usa-section bg-base-lightest">
+  <div class="grid-container maxw-tablet">
+    <h2 class="font-heading-xl text-center margin-bottom-3">
+      Frequently Asked Questions
+    </h2>
+
+    <details class="faq-item margin-bottom-2">
+      <summary class="faq-question font-heading-md">
+        Can I switch plans anytime?
+      </summary>
+      <p>You can upgrade or downgrade at the next billing cycle.</p>
+    </details>
+
+    <details class="faq-item margin-bottom-2">
+      <summary class="faq-question font-heading-md">
+        Is there a free trial?
+      </summary>
+      <p>Yes, the Standard plan includes a 30-day free trial.</p>
+    </details>
+
+    <details class="faq-item">
+      <summary class="faq-question font-heading-md">
+        Discounts for non-profits?
+      </summary>
+      <p>
+        Yes.
+        <a href="contact.html" class="usa-link">Contact us</a> for details.
+      </p>
+    </details>
+  </div>
+</section>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="usa-footer">
+  <div class="grid-container">
+    <p>© City of RFPMart</p>
+  </div>
+</footer>
+
+<script src="uswds/dist/js/uswds.min.js"></script>
+</body>
+</html>
