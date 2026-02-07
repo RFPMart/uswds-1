@@ -132,9 +132,12 @@ summary{
   padding:0.5rem;
   width:100%;
 }
+<<<<<<< HEAD
 .usa-input{
   border-radius: .25rem 0px 0 .25rem !important;
 }
+=======
+>>>>>>> 759c5138bfc6681f461bcb5b146d80a13cd2ad96
 @font-face{
   font-family:"Roboto Mono Web";
   font-style:normal;
@@ -1897,7 +1900,10 @@ dfn{
   display:flex;
   flex-wrap:wrap;
   align-items:flex-start;
+<<<<<<< HEAD
   justify-content: center;
+=======
+>>>>>>> 759c5138bfc6681f461bcb5b146d80a13cd2ad96
   padding-right:0rem;
 }
 @media all and (min-width: 64em){
@@ -1915,7 +1921,10 @@ dfn{
 @media all and (min-width: 40em){
   .usa-banner__inner{
     align-items:center;
+<<<<<<< HEAD
     justify-content: center;
+=======
+>>>>>>> 759c5138bfc6681f461bcb5b146d80a13cd2ad96
   }
 }
 
@@ -3022,12 +3031,15 @@ dfn{
   margin-right:0.5rem;
   position:relative;
   border-radius:0.5rem;
+<<<<<<< HEAD
   background-repeat: no-repeat;
   transition: background-size 2s ease;
 }
 
 .usa-card__container:hover{
   background-size: 110% !important;
+=======
+>>>>>>> 759c5138bfc6681f461bcb5b146d80a13cd2ad96
 }
 
 .usa-card:not(.usa-card--flag) .usa-card__container > :only-child{
@@ -9319,7 +9331,11 @@ html.usa-js-loading .usa-nav__submenu.usa-megamenu{
     outline-offset:-0.25rem;
   }
   .usa-nav__submenu .usa-nav__submenu-item a:hover{
+<<<<<<< HEAD
     color: #d9e8f6 !important;
+=======
+    color:white;
+>>>>>>> 759c5138bfc6681f461bcb5b146d80a13cd2ad96
     text-decoration:underline;
   }
 }

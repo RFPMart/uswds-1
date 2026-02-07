@@ -357,8 +357,12 @@
 							class="usa-input"
 							id="search-field"
 							type="search"
+<<<<<<< HEAD
 							name="search"
 							placeholder="Search" />
+=======
+							name="search" />
+>>>>>>> 759c5138bfc6681f461bcb5b146d80a13cd2ad96
 						<button class="usa-button" type="submit">
 							<img
 								src="uswds/dist/img/usa-icons-bg/search--white.svg"

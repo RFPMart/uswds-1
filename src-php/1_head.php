@@ -1,5 +1,6 @@
 <!-- ========================= USWDS Init Script ========================= -->
 <script src="uswds/dist/js/uswds-init.min.js"></script>
+<<<<<<< HEAD
 <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 
 
@@ -13,3 +14,8 @@
 
 <!-- ========================= Font Awesome Icons ========================= -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+=======
+
+<!-- ========================= Stylesheets ========================= -->
+<link rel="stylesheet" href="uswds/dist/css/uswds.min.css" />
+>>>>>>> 759c5138bfc6681f461bcb5b146d80a13cd2ad96
