@@ -1,0 +1,6 @@
+{
+  "license": "MIT",
+  "dependencies": {
+    "@uswds/uswds": "^3.13.0"
+  }
+}
