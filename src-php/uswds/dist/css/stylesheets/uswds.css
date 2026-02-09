@@ -5,6 +5,13 @@
  *   '
  *   src-php\uswds\dist\scss\stylesheets\uswds.scss 1:1  root stylesheet */
 
+:root{
+
+    --hover-light: #d9e8f6;
+    --hover-dark: #005ea2;
+
+}
+
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
       "Droid Sans Mono", monospace, monospace;

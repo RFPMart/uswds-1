@@ -132,12 +132,39 @@ summary{
   padding:0.5rem;
   width:100%;
 }
-<<<<<<< HEAD
+
+.usa-nav__submenu .usa-nav__submenu-item a:hover{
+    color: #d9e8f6 !important;
+    text-decoration:underline;
+}
+
+.usa-section  .desktop\:grid-col-7{
+     align-content: center;
+}
+
+.usa-prose .usa-list{
+    list-style: none;
+    padding-left: 0;
+    column-count: 2;
+    column-gap: 12px
+}
+
+.usa-prose .usa-list li{
+    padding: 8px 8px;
+    background-color: #d9e8f6;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+.usa-prose .usa-list i{
+    padding-right: 10px;
+    color: #005ea2;
+}
+
 .usa-input{
   border-radius: .25rem 0px 0 .25rem !important;
 }
-=======
->>>>>>> 759c5138bfc6681f461bcb5b146d80a13cd2ad96
+
 @font-face{
   font-family:"Roboto Mono Web";
   font-style:normal;
@@ -3815,7 +3842,10 @@ dfn{
   line-height:1.1;
 }
 .usa-footer__contact-info a{
-  color:#1b1b1b;
+  color:#d9e8f6 !important;
+}
+.usa-footer__contact-info a:hover{
+  color:#d9e8f6 !important;
 }
 @media all and (min-width: 30em){
   .usa-footer__contact-info{
@@ -3930,8 +3960,8 @@ dfn{
 }
 
 .usa-social-link{
-  height:3rem;
-  width:3rem;
+  height:2.5rem !important;
+  width:2.5rem !important;
   background-color:rgba(0, 0, 0, 0.1);
   display:inline-block;
   padding:0.25rem;
