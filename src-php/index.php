@@ -6,7 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>City Government - RFPMart + USWDS</title>
     <meta name="description" content="Explore city government departments, leadership, services, and public resources in one place." />
+<<<<<<< HEAD
+    
+=======
 
+>>>>>>> 759c5138bfc6681f461bcb5b146d80a13cd2ad96
     <?php require_once '1_head.php'; ?>
 </head>
 
@@ -26,7 +30,11 @@
                             </li>
                         </ul>
                     </nav>
+<<<<<<< HEAD
+                    <p class="margin-top-0 margin-bottom-5px">
+=======
                     <p class="margin-top-0 margin-bottom-0">
+>>>>>>> 759c5138bfc6681f461bcb5b146d80a13cd2ad96
                         Official Website of
                     </p>
                     <h1 class="usa-hero__heading margin-top-0">
@@ -43,7 +51,12 @@
                             class="usa-input"
                             id="search-field"
                             type="search"
+<<<<<<< HEAD
+                            name="search"
+                            placeholder="Search" />
+=======
                             name="search" />
+>>>>>>> 759c5138bfc6681f461bcb5b146d80a13cd2ad96
                         <button class="usa-button" type="submit">
                             <img
                                 src="uswds/dist/img/usa-icons-bg/search--white.svg"
@@ -129,8 +142,11 @@
                     <h2 class="font-heading-xl">
                         Our Mission
                     </h2>
+<<<<<<< HEAD
+=======
                 </div>
                 <div class="usa-prose tablet:grid-col-7 desktop:grid-col-7">
+>>>>>>> 759c5138bfc6681f461bcb5b146d80a13cd2ad96
                     <p>
                         Our mission is to foster a safe, vibrant, and inclusive community.
                         We deliver essential services, support economic opportunity, and
@@ -141,6 +157,19 @@
                         strengthen neighborhoods, maintain reliable infrastructure, and
                         plan for a sustainable future.
                     </p>
+<<<<<<< HEAD
+                </div>
+                <div class="usa-prose tablet:grid-col-7 desktop:grid-col-7">                    
+                    <p>
+                        <strong>Our Goals:</strong>
+                    </p>
+                    <ul class="usa-list">
+                        <li><i class="fa fa-check"></i>Support community well-being</li>
+                        <li><i class="fa fa-check"></i>Encourage civic participation</li>
+                        <li><i class="fa fa-check"></i>Maintain strong infrastructure</li>
+                        <li><i class="fa fa-check"></i>Promote economic stability</li>
+                        <li><i class="fa fa-check"></i>Protect the environment</li>
+=======
                     <p>
                         Our Goals:
                     </p>
@@ -150,6 +179,7 @@
                         <li>Maintain strong infrastructure</li>
                         <li>Promote economic stability</li>
                         <li>Protect the environment</li>
+>>>>>>> 759c5138bfc6681f461bcb5b146d80a13cd2ad96
                     </ul>
                 </div>
             </div>

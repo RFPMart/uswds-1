@@ -9,21 +9,33 @@
             <div class="desktop:grid-col-6 tablet:grid-col-6">
                 <a
                     href="#"
+<<<<<<< HEAD
+                    class="usa-button flex-justify-start height-7 width-full bg-white border-bottom-1px border-dotted border-ink hover:bg-transparent hover:border-1px hover:border-black"
+=======
                     class="usa-button flex-justify-start height-7 width-full bg-transparent border-bottom-1px border-dotted border-ink hover:bg-transparent hover:border-1px hover:border-black"
+>>>>>>> 759c5138bfc6681f461bcb5b146d80a13cd2ad96
                     style="background-image: url('uswds/dist/img/usa-icons/navigate_next.svg'); background-repeat: no-repeat; background-position: right 1.25rem center;">
                     <span class="font-body-md text-black">Pay A Ticket</span>
                 </a>
 
                 <a
                     href="#"
+<<<<<<< HEAD
+                    class="usa-button flex-justify-start height-7 width-full margin-top-1 bg-white border-bottom-1px border-dotted border-ink hover:bg-transparent hover:border-1px hover:border-black"
+=======
                     class="usa-button flex-justify-start height-7 width-full margin-top-1 bg-transparent border-bottom-1px border-dotted border-ink hover:bg-transparent hover:border-1px hover:border-black"
+>>>>>>> 759c5138bfc6681f461bcb5b146d80a13cd2ad96
                     style="background-image: url('uswds/dist/img/usa-icons/navigate_next.svg'); background-repeat: no-repeat; background-position: right 1.25rem center;">
                     <span class="font-body-md text-black">Pay Utilities</span>
                 </a>
 
                 <a
                     href="#"
+<<<<<<< HEAD
+                    class="usa-button flex-justify-start height-7 width-full margin-top-1 bg-white border-bottom-1px border-dotted border-ink hover:bg-transparent hover:border-1px hover:border-black"
+=======
                     class="usa-button flex-justify-start height-7 width-full margin-top-1 bg-transparent border-bottom-1px border-dotted border-ink hover:bg-transparent hover:border-1px hover:border-black"
+>>>>>>> 759c5138bfc6681f461bcb5b146d80a13cd2ad96
                     style="background-image: url('uswds/dist/img/usa-icons/navigate_next.svg'); background-repeat: no-repeat; background-position: right 1.25rem center;">
                     <span class="font-body-md text-black">Public Transit</span>
                 </a>
@@ -32,21 +44,33 @@
             <div class="desktop:grid-col-6 tablet:grid-col-6">
                 <a
                     href="#"
+<<<<<<< HEAD
+                    class="usa-button flex-justify-start height-7 width-full margin-top-1 tablet:margin-0 bg-white border-bottom-1px border-dotted border-ink hover:bg-transparent hover:border-1px hover:border-black"
+=======
                     class="usa-button flex-justify-start height-7 width-full margin-top-1 tablet:margin-0 bg-transparent border-bottom-1px border-dotted border-ink hover:bg-transparent hover:border-1px hover:border-black"
+>>>>>>> 759c5138bfc6681f461bcb5b146d80a13cd2ad96
                     style="background-image: url('uswds/dist/img/usa-icons/navigate_next.svg'); background-repeat: no-repeat; background-position: right 1.25rem center;">
                     <span class="font-body-md text-black">Get A Permit</span>
                 </a>
 
                 <a
                     href="#"
+<<<<<<< HEAD
+                    class="usa-button flex-justify-start height-7 width-full margin-top-1 bg-white border-bottom-1px border-dotted border-ink hover:bg-transparent hover:border-1px hover:border-black"
+=======
                     class="usa-button flex-justify-start height-7 width-full margin-top-1 bg-transparent border-bottom-1px border-dotted border-ink hover:bg-transparent hover:border-1px hover:border-black"
+>>>>>>> 759c5138bfc6681f461bcb5b146d80a13cd2ad96
                     style="background-image: url('uswds/dist/img/usa-icons/navigate_next.svg'); background-repeat: no-repeat; background-position: right 1.25rem center;">
                     <span class="font-body-md text-black">Fire & Rescue</span>
                 </a>
 
                 <a
                     href="#"
+<<<<<<< HEAD
+                    class="usa-button flex-justify-start height-7 width-full margin-top-1 bg-white border-bottom-1px border-dotted border-ink hover:bg-transparent hover:border-1px hover:border-black"
+=======
                     class="usa-button flex-justify-start height-7 width-full margin-top-1 bg-transparent border-bottom-1px border-dotted border-ink hover:bg-transparent hover:border-1px hover:border-black"
+>>>>>>> 759c5138bfc6681f461bcb5b146d80a13cd2ad96
                     style="background-image: url('uswds/dist/img/usa-icons/navigate_next.svg'); background-repeat: no-repeat; background-position: right 1.25rem center;">
                     <span class="font-body-md text-black">Business License</span>
                 </a>

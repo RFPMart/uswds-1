@@ -132,6 +132,39 @@ summary{
   padding:0.5rem;
   width:100%;
 }
+
+.usa-nav__submenu .usa-nav__submenu-item a:hover{
+    color: #d9e8f6 !important;
+    text-decoration:underline;
+}
+
+.usa-section  .desktop\:grid-col-7{
+     align-content: center;
+}
+
+.usa-prose .usa-list{
+    list-style: none;
+    padding-left: 0;
+    column-count: 2;
+    column-gap: 12px
+}
+
+.usa-prose .usa-list li{
+    padding: 8px 8px;
+    background-color: #d9e8f6;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+.usa-prose .usa-list i{
+    padding-right: 10px;
+    color: #005ea2;
+}
+
+.usa-input{
+  border-radius: .25rem 0px 0 .25rem !important;
+}
+
 @font-face{
   font-family:"Roboto Mono Web";
   font-style:normal;
@@ -1894,6 +1927,10 @@ dfn{
   display:flex;
   flex-wrap:wrap;
   align-items:flex-start;
+<<<<<<< HEAD
+  justify-content: center;
+=======
+>>>>>>> 759c5138bfc6681f461bcb5b146d80a13cd2ad96
   padding-right:0rem;
 }
 @media all and (min-width: 64em){
@@ -1911,6 +1948,10 @@ dfn{
 @media all and (min-width: 40em){
   .usa-banner__inner{
     align-items:center;
+<<<<<<< HEAD
+    justify-content: center;
+=======
+>>>>>>> 759c5138bfc6681f461bcb5b146d80a13cd2ad96
   }
 }
 
@@ -3017,6 +3058,15 @@ dfn{
   margin-right:0.5rem;
   position:relative;
   border-radius:0.5rem;
+<<<<<<< HEAD
+  background-repeat: no-repeat;
+  transition: background-size 2s ease;
+}
+
+.usa-card__container:hover{
+  background-size: 110% !important;
+=======
+>>>>>>> 759c5138bfc6681f461bcb5b146d80a13cd2ad96
 }
 
 .usa-card:not(.usa-card--flag) .usa-card__container > :only-child{
@@ -3792,7 +3842,10 @@ dfn{
   line-height:1.1;
 }
 .usa-footer__contact-info a{
-  color:#1b1b1b;
+  color:#d9e8f6 !important;
+}
+.usa-footer__contact-info a:hover{
+  color:#d9e8f6 !important;
 }
 @media all and (min-width: 30em){
   .usa-footer__contact-info{
@@ -3907,14 +3960,17 @@ dfn{
 }
 
 .usa-social-link{
-  height:3rem;
-  width:3rem;
+  height:2.5rem !important;
+  width:2.5rem !important;
   background-color:rgba(0, 0, 0, 0.1);
   display:inline-block;
   padding:0.25rem;
 }
 .usa-social-link:hover{
-  background-color:white;
+  background-color:#d9e8f6;
+}
+.usa-social-link:hover svg path{
+  fill:#d9e8f6;
 }
 @media (forced-colors: active){
   .usa-social-link{
@@ -9308,7 +9364,11 @@ html.usa-js-loading .usa-nav__submenu.usa-megamenu{
     outline-offset:-0.25rem;
   }
   .usa-nav__submenu .usa-nav__submenu-item a:hover{
+<<<<<<< HEAD
+    color: #d9e8f6 !important;
+=======
     color:white;
+>>>>>>> 759c5138bfc6681f461bcb5b146d80a13cd2ad96
     text-decoration:underline;
   }
 }

@@ -1,3 +1,11 @@
 {
+<<<<<<< HEAD
+  "license": "MIT",
+  "dependencies": {
+    "@uswds/uswds": "^3.13.0"
+  }
+}
+=======
   "license": "MIT"
 }
+>>>>>>> 759c5138bfc6681f461bcb5b146d80a13cd2ad96
