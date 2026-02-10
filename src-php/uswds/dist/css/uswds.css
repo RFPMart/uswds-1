@@ -3967,7 +3967,10 @@ dfn{
   padding:0.25rem;
 }
 .usa-social-link:hover{
-  background-color:white;
+  background-color:#d9e8f6;
+}
+.usa-social-link:hover path{
+  fill:#d9e8f6;
 }
 @media (forced-colors: active){
   .usa-social-link{
