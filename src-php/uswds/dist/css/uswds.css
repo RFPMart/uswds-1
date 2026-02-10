@@ -3969,7 +3969,7 @@ dfn{
 .usa-social-link:hover{
   background-color:#d9e8f6;
 }
-.usa-social-link:hover path{
+.usa-social-link:hover svg path{
   fill:#d9e8f6;
 }
 @media (forced-colors: active){
